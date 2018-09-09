@@ -1,0 +1,56 @@
+.fish {
+  width:100px;
+  height:100px;
+  top:50%;
+  right:50%;
+  margin-top: 110px;
+  background:lightblue;
+  opacity: 0.5;
+  z-index: -1;
+  position:absolute;
+  animation:10s fly infinite linear;
+  transform:translateX(-50%);
+}
+.f-1 {
+  width:10px;
+  height:10px;
+  background:white;
+  border-radius:50%;
+  z-index:9;
+  display:inline-block;
+  position:absolute;
+  margin:70px 0 0 7px;
+}
+.f-2 {
+  width:50px;
+  height:50px;
+  background:lightblue;
+  position:absolute;
+  top:-25px;
+  left:70px;
+}
+@keyframes fly {
+  0%,
+  100% {
+    right:10%;
+    transform:rotateY(180deg) rotate(45deg);
+    top:150px;
+  }
+  1% {
+    transform:rotateY(0deg) rotate(45deg);
+  }
+  25% {
+    top:180px;
+  }
+  49% {
+    transform:rotateY(0deg) rotate(45deg);
+  }
+  50% {
+    right:90%;
+    top:150px;
+    transform:rotateY(180deg) rotate(45deg);
+  }
+  75% {
+    top:180px;
+  }
+}

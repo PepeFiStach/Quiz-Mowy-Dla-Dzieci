@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="start.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="bubbles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="fish.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="menu.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="questions.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="end.css" />
+</head>
+<body>
+    <div id="background-wrap">
+        <div class="bubble x1"></div>
+        <div class="bubble x2"></div>
+        <div class="bubble x3"></div>
+        <div class="bubble x4"></div>
+        <div class="bubble x5"></div>
+        <div class="bubble x6"></div>
+        <div class="bubble x7"></div>
+        <div class="bubble x8"></div>
+        <div class="bubble x9"></div>
+        <div class="bubble x10"></div>
+    </div>
+    <div class="fish">
+        <span class="f-1"></span>
+        <span class="f-2"></span>
+    </div>
+    <section class="start-page">
+        <div class="start-page-header">
+            <img class="start-logo" src="red-crab.png"/>
+            <div class="header-note">
+                <h1><span class="R">R</span>AK</h1>
+                <h1><span class="R">R</span>ERAK</h1>
+                <p>Quiz wiedzy dla dzieci</p>
+            </div>
+        </div>
+        <div class="start-page-main">
+            <div class="start-page-note">
+                <h1>Witajcie! Jestem Pan <span class="R">R</span>ak <span class="R">R</span>erak</h1>
+            </div>
+            <div class="start-page-button">Zaczynamy !</div>
+        </div>
+    </section>
+    <section class="menu-page">
+        <div class="menu-page-note">
+            <h1>Proszę wybrać przedział wiekowy dziecka</h1>
+        </div>
+        <div class="choose-menu">
+            <div class="choose-menu-button btn-1">0-1</div>
+            <div class="choose-menu-button btn-2">1-2</div>
+            <div class="choose-menu-button btn-3">2-3</div>
+            <div class="choose-menu-button btn-4">3-6</div>
+        </div>
+    </section>
+
+    <section class="question-page question">
+        <div class="question-page-note">
+            <h1 class="note1">Pierwsze pytanie</h1>
+        </div>
+        <div class="choose-question">
+            <div id='odp.a' class="choose-question-button q-11">---</div>
+            <div id='odp.b' class="choose-question-button q-12">---</div>
+            <div id='odp.c' class="choose-question-button q-13">---</div>
+        </div>
+    </section>
+
+    <section class="end-page">
+        <div class="end-page-header">
+            <img class="start-logo" src="red-crab.png" />
+            <div class="end-page-note">
+                <h1 class="end-note">Brawo to koniec mojego quizu</h1>
+            </div>
+        </div>
+        <h1 class="end-page-score-note">Oto twój wynik</h1>
+        <div class="end-score">
+            <h1 class="score">-</h1>
+            <h1>/5</h1>
+        </div>
+        <div class="restart-button">Jeszcze raz!</div>
+    </section>
+
+    <footer>&copy Uniwersytet Kazimierza Wielkiego 2018</footer>
+    <script src="question.js"></script>
+    <script src="Question1.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

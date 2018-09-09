@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Itim');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body,
+    html {
+        height: 100%;
+        font-family: 'Itim', cursive;
+    }
+body {
+    display: flex;
+    flex-direction: column;
+}
+.start-page {
+    /* display: none; */
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+.start-page-transform {
+    opacity: 0;
+}
+footer {
+    flex: 0 0 4%;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    left: 50%;
+    font-size: 16px;
+    transform: translateX(-50%);
+}
+.start-page-header {
+    flex: 0 0 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header-note h1 {
+    font-size: 36px;
+}
+.header-note p {
+    font-size: 22px;
+}
+.R {
+    color: red;
+    font-size: 130%;
+}
+.header-note p {
+    margin-top: 5px;
+}
+.start-page-main {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.start-page-button {
+    width: 200px;
+    height: 70px;
+    font-size: 24px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3em;
+    /* transition: 1s ease-out; */
+}
+.start-page-button:hover {
+    background-color: lightblue;
+}
+.header-note,
+    .start-logo {
+        margin: 0 auto;
+        width: 20%;
+        height: 20%;
+    }
+.header-note {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.start-page-note {
+    font-size: 32px;
+    margin-top: -80px;
+}
+.start-page-button {
+    margin-top: 40px;
+}
